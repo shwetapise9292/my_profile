@@ -4,43 +4,60 @@
         <title> Index Page </title>
         <!-- CDN Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Google font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
         <style>
-             header{
-                color: white;
-                background-color: brown;
+            /* Universal selector */
+            *{
+                margin: 0px;
+                padding: 0px;
             }
-            #username, #mobile{
-                margin-right: 50px;
+
+            header{
+                background-color: brown;  
+                padding: 15px;
+                font-size: x-large;
+                font-family: 'Sriracha', cursive;
             }
-            #home, #techno, #education, #personal{
-                margin-right: 10px;
+
+            .userinfo{
+                margin-right: 70px;
             }
-            #followme, #linkedin, #google, #instagram, #facebook{
-                margin-right: 10px;
+            .navBar{
+                margin-right: 25px;
             }
+            .fontIcon{
+                margin-right: 15px;
+                te
+            }
+
+            
         </style>
     </head>
     <body>
         <header>
             <i class="fa fa-user" aria-hidden="true"></i>
-            <span id="username"> Mohit Sharma </span>
+            <span class="userinfo"> Mohit Sharma </span>
 
             <i class="fa fa-phone-square" aria-hidden="true"></i>
-            <span id="mobile"> 8600555099 </span>
+            <span class="userinfo"> 8600555099 </span>
 
             <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span> mohit.sharma@gmail.com </span>
+            <span class="userinfo"> mohit.sharma@gmail.com </span>
 
         </header>
 
         <br>
 
         <nav>
-            <a href="home.html" target="frame" id="home"> HOME </a>
-            <a href="techStack.html" target="frame" id="techno"> TECHNOLOGY STACK </a> 
-            <a href="education.html" target="frame" id="education"> EDUCATION</a> 
-            <a href="personal.html" target="frame" id="personal"> PERSONAL </a> 
-            <a href="contactus.html" target="frame"> CONTACT ME </a>
+            <a href="home.html" target="frame" class="navBar"> HOME </a>
+            <a href="techStack.html" target="frame" class="navBar"> TECHNOLOGY STACK </a> 
+            <a href="education.html" target="frame" class="navBar"> EDUCATION</a> 
+            <a href="personal.html" target="frame" class="navBar"> PERSONAL </a> 
+            <a href="contactus.html" target="frame" class="navBar"> CONTACT ME </a>
         </nav>
         
         <br>
@@ -50,16 +67,16 @@
         <br>
         <br>
 
-        <span id="followme"> Follow me </span>
+        <span id="followme" class="fontIcon"> Follow me </span>
 
-        <a href="https://in.linkedin.com/" target="_blank" id="linkedin"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://in.linkedin.com/" target="_blank" id="linkedin" class="fontIcon"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
-        <a href="https://www.google.com/" target="_blank" id="google"> <i class="fa fa-google" aria-hidden="true"></i></a>
+        <a href="https://www.google.com/" target="_blank" id="google" class="fontIcon"> <i class="fa fa-google" aria-hidden="true"></i></a>
 
-        <a href="https://www.instagram.com/" target="blank" id="instagram"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" target="blank" id="instagram" class="fontIcon"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
 
-        <a href="https://www.facebook.com/" target="_blank" id="facebook"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" id="facebook" class="fontIcon"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 
-        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/" target="_blank" class="fontIcon"><i class="fa fa-youtube" aria-hidden="true"></i></a>
     </body>
 </html>
