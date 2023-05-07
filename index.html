@@ -4,14 +4,29 @@
         <title> Index Page </title>
         <!-- CDN Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             header{
+                color: white;
+                background-color: brown;
+            }
+            #username, #mobile{
+                margin-right: 50px;
+            }
+            #home, #techno, #education, #personal{
+                margin-right: 10px;
+            }
+            #followme, #linkedin, #google, #instagram, #facebook{
+                margin-right: 10px;
+            }
+        </style>
     </head>
     <body>
         <header>
             <i class="fa fa-user" aria-hidden="true"></i>
-            <span> Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+            <span id="username"> Mohit Sharma </span>
 
             <i class="fa fa-phone-square" aria-hidden="true"></i>
-            <span> 8600555099 </span> &nbsp; &nbsp; &nbsp;
+            <span id="mobile"> 8600555099 </span>
 
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <span> mohit.sharma@gmail.com </span>
@@ -21,10 +36,10 @@
         <br>
 
         <nav>
-            <a href="home.html" target="frame"> HOME </a> &nbsp; &nbsp;
-            <a href="techStack.html" target="frame"> TECHNOLOGY STACK </a> &nbsp; &nbsp;
-            <a href="education.html" target="frame"> EDUCATION</a> &nbsp; &nbsp;
-            <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp;
+            <a href="home.html" target="frame" id="home"> HOME </a>
+            <a href="techStack.html" target="frame" id="techno"> TECHNOLOGY STACK </a> 
+            <a href="education.html" target="frame" id="education"> EDUCATION</a> 
+            <a href="personal.html" target="frame" id="personal"> PERSONAL </a> 
             <a href="contactus.html" target="frame"> CONTACT ME </a>
         </nav>
         
@@ -35,16 +50,16 @@
         <br>
         <br>
 
-        <span> Follow me </span> &nbsp; &nbsp; &nbsp;
+        <span id="followme"> Follow me </span>
 
-        <a href="https://in.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
+        <a href="https://in.linkedin.com/" target="_blank" id="linkedin"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
-        <a href="https://www.google.com/" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
+        <a href="https://www.google.com/" target="_blank" id="google"> <i class="fa fa-google" aria-hidden="true"></i></a>
 
-        <a href="https://www.instagram.com/" target="blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
+        <a href="https://www.instagram.com/" target="blank" id="instagram"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
 
-        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
+        <a href="https://www.facebook.com/" target="_blank" id="facebook"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 
-        <i class="fa fa-youtube" aria-hidden="true"></i>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
     </body>
 </html>
